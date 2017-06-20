@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.learn.transition">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.learn.transition.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.learn.transition.SceneActivity"
+            android:theme="@style/AppTheme_Red">
+        </activity>
+        <activity android:name="com.learn.transition.BeginDelayedActivity">
+        </activity>
+        <activity
+            android:name="com.learn.transition.ContentTransitionsActivity"
+            android:theme="@style/AppTheme_Red">
+        </activity>
+        <activity android:name="com.learn.transition.ContentAndSharedTransitionActivity"
+            >
+        </activity>
+        <activity android:name="com.learn.transition.SceneChangeBoundsActivity">
+        </activity>
+        <activity android:name="com.learn.transition.SceneChangeTransformActivity">
+        </activity>
+        <activity android:name="com.learn.transition.SceneChangeClipBoundsActivity">
+        </activity>
+        <activity android:name="com.learn.transition.SceneChangeImageTransformActivity">
+        </activity>
+        <activity android:name="com.learn.transition.SceneFadeSlideExplodeActivity">
+        </activity>
+        <activity android:name="com.learn.transition.BaseActivity">
+        </activity>
+        <activity android:name="com.learn.transition.WithSharedElementTransitionsActivity">
+        </activity>
+        <activity android:name="com.learn.transition.FragmentTransitionActivity">
+        </activity>
+    </application>
+
+</manifest>

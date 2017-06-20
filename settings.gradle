@@ -1,0 +1,1 @@
+include ':constraintlayout', ':textinput', ':googleplaystatus', ':swiperefreshlayout', ':outlines', ':tint', ':palette', ':tablayout', ':ripple', ':newanimation', ':transition', ':material'
